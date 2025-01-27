@@ -1,0 +1,15 @@
+class Even&Odd{
+    public staic void main(String[] args){
+         int[] arr={5,3,7,2,8,0,34,77,233,54,76};
+         int evencount=0;
+         int oddcount=0
+         for(int i:arr){
+             if(i%2==0){
+                  evencount++;
+             }else{
+                  oddcount++;
+            }
+         }
+         System.out.print("Even counts are "+evencount+" and oddcounts are "+oddcount);
+    }
+}
